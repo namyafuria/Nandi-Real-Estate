@@ -11,7 +11,7 @@ export default function Hero() {
           alt="Mumbai Real Estate" 
           className="object-cover w-full h-full"
           onError={(e) => {
-            e.currentTarget.src = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80";
+            e.currentTarget.src = "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl1nY-geYBJazwigE0zwdqP9lJtOco0dOV9O4BVfb3iJKj7jcyvV9QoOsbtWUjR4q2tDh2xIjjQyMOLMe9Wnk4-FDu29U9QYOnUw4UQy22VlcTetOGbGDeGnudMtbL6xXidcz9D=s1360-w1360-h1020-rw";
           }}
         />
         <div className="absolute inset-0 bg-gray-900/70"></div>
