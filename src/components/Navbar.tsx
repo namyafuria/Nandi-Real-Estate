@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <a href="#home" className="flex items-center gap-2">
-              <img src="logo.png" alt="Nandi Real Estate" className="h-12 w-auto object-contain fallback-text" onError={(e) => {
+              <img src="/logo.png" alt="Nandi Real Estate" className="h-12 w-auto object-contain fallback-text" onError={(e) => {
                 e.currentTarget.style.display = 'none';
                 e.currentTarget.nextElementSibling?.classList.remove('hidden');
               }} />
