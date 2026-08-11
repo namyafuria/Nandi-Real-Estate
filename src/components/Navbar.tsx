@@ -7,7 +7,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About Us', href: '#about' },
-    { name: 'Services', href: '#services' },
+    { name: 'Featured Properties', href: '#portfolio' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -18,12 +18,18 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <a href="#home" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                NR
-              </div>
-              <div>
-                <h1 className="font-bold text-xl text-gray-900 leading-tight">Nandi</h1>
-                <p className="text-sm text-blue-600 font-semibold leading-tight">Real Estate</p>
+              <img src="/logo.png" alt="Nandi Real Estate" className="h-12 w-auto object-contain fallback-text" onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                e.currentTarget.nextElementSibling?.classList.remove('hidden');
+              }} />
+              <div className="hidden flex items-center gap-2">
+                <div className="w-10 h-10 bg-blue-900 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                  NR
+                </div>
+                <div>
+                  <h1 className="font-bold text-xl text-gray-900 leading-tight">Nandi</h1>
+                  <p className="text-sm text-blue-600 font-semibold leading-tight">Real Estate</p>
+                </div>
               </div>
             </a>
           </div>

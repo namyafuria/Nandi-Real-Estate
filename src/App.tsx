@@ -6,7 +6,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
+import FeaturedProperties from './components/FeaturedProperties';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -20,7 +20,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
-        <Services />
+        <FeaturedProperties />
         <Testimonials />
         <Contact />
       </main>
