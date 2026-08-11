@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <a href="#home" className="flex items-center gap-2">
-              <img src="/logo.png" alt="Nandi Real Estate" className="h-12 w-auto object-contain fallback-text" onError={(e) => {
+              <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkS0J_lcMZWn66BEkg3O_CFBSl-vNXzSdYbVrLHAbPWE6cSrINldvv8wJ0jiOK3byu0ckPoRd_Uc2VDd3ucphByLWLUnRq7KZ8-YccqtI7445d5naLwyWrluz-0eG5ZcxaC6TK3=s1360-w1360-h1020-rw" alt="Nandi Real Estate" className="h-12 w-auto object-contain fallback-text" onError={(e) => {
                 e.currentTarget.style.display = 'none';
                 e.currentTarget.nextElementSibling?.classList.remove('hidden');
               }} />
